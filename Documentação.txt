@@ -1,0 +1,24 @@
+1- Criação do diagrama do nosso BD
+2- Criação do DB c/ MySQL
+3- Estruturando projeto PHP
+	criação de pasta do css, pasta do DAO, pasta de img c/ movies e users, templates
+4- configurei todos os bootstrap
+5- Criando a conexão com o BD:
+<?php 
+    session_start();
+
+    $BASE_URL = "http://" . $_SERVER["SERVER_NAME"] . dirname($_SERVER["REQUEST_URI" ] . "?") . "/";
+
+
+<?php
+    $db_name = "moviestar";
+    $db_host = "localhost";
+    $db_user = "root";
+    $db_pass = "";
+
+    $conn = new PDO("mysql:dbname=" . $db_name . ";host=" . $db_host, $db_user, $db_pass);
+
+    // Halibitar erros PDO
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+
