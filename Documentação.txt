@@ -22,3 +22,16 @@
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
+6- Criação do cabeçalho e rodapé. CSS
+7- Separação de templates
+8- Estrutura de login e registro de usuários
+9- Criação da class User com tudo que será alterado no BD
+10- Criação da interface DAO
+11- Iniciando a autenticação
+12- Criando flashMessages para tratamentos de erros
+	se o usuário não preencher os campos de criação de conta corretamente o erro disparará.
+13- Finalizando validações
+	verificar se as senhas batem
+14- Preparando os dados de usuário
+	token de segurança,hashs 
+15- Registro de usuário
