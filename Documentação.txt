@@ -35,3 +35,8 @@
 14- Preparando os dados de usuário
 	token de segurança,hashs 
 15- Registro de usuário
+	$stmt bindParam e execute
+16- Alterando Header e rota ao usuário realizar login
+17- Logout
+	
+
