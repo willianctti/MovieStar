@@ -38,5 +38,9 @@
 	$stmt bindParam e execute
 16- Alterando Header e rota ao usuário realizar login
 17- Logout
-	
+18- Formulário de edição de informações do usuário
+19- Formulário de edição de senha
+20- Edição de usuário **Inserção no DT
+21- Upload de imagem do User
+
 
